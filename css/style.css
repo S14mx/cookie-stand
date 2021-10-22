@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+}
+
+/* font-family: 'IM Fell English SC', serif;
+font-family: 'Martel', serif;
+font-family: 'Rampart One', cursive; */
+
+body {
+  background-image: url("../images/Background.jpg");
+  background-attachment: fixed;
+}
+
+#header-background {
+  width: 100%;
+  height: 200px;
+  background-color:rgb(160, 104, 20, 0.7);
+  display: flex;
+  justify-content: space-between; 
+  
+}
+
+h1 {
+  font-family: 'Rampart One', cursive;
+  font-size: 100px;
+  color: rgb(250, 250, 250, 0.9);
+  text-align: center;
+  padding: 2rem 0;
+  cursor: context-menu;
+}
+
+header nav, #footer-bar {
+  background-color:rgb(128, 56, 22);
+  padding: 1rem 0 1rem 0;
+  display: flex;
+  justify-content: center;
+
+}
+
+ /* header ul {
+   margin-left: 0.1rem;
+  align-items: center;
+} */
+
+header ul li {
+  display: inline-block;
+  padding: 0.5rem 7rem;
+  margin: 0 2rem;
+  border: 2px solid rgb(173, 173, 133);
+}
+
+header ul li:hover {
+  display: inline-block;
+  padding: 0.5rem 7rem;
+  margin: 0 2rem;
+  border: 2px solid rgb(221, 221, 199,);
+  opacity: 0.5;
+}
+
+header ul a {
+  color: rgb(231, 230, 216);
+  padding: 0.5rem;
+  text-decoration: none;
+  
+}
+
+main {
+width:82vw;
+background-color:rgb(160, 104, 20, 0.7);
+margin: 0 auto;
+}
+
+.about, .mission {
+  display: flex;
+  align-items: center;
+}
+
+.mission {
+  flex-direction: column;
+}
+
+h2 {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 40px;
+  font-weight: bold;
+  
+}
+.mission p {
+margin: 0px 25px;
+}
+
+#one h2 {
+  /* text-align: center; */
+  padding-left: 275px;
+}
+
+p {
+  font-family: 'Martel', serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+#img-one, #img-two {
+  margin: 2rem;
+  box-shadow: 5px 5px 7px 7px black;
+}
+
+
+#one {
+  width: 1000px;
+  display: inline-block;
+  margin: 25px 25px; 
+}
+#two h2 {
+  text-align: center;
+}
+#two {
+  width: 100%;
+  display: inline-block;
+  margin: 25px 10px; 
+}
+
+.cookies:hover {
+  animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+  100% {transform: rotate(1turn); }
+}
+
+/* Sales page */
+
+td, th {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+#sales-data {
+  height: 668px;
+}
+
+table {
+  background-color: rgba(255, 235, 205, 0.801);
+  margin: auto;
+}
+
+#sales-data h2 {
+  text-align: center;
+  padding: 5rem;
+}
+
+/* Footer */
+
+
+#footer-bar h3, #footer-bar p {
+  margin:15px auto 10px auto;
+  height: 20px;
+  text-align: center;
+  color: rgb(231, 230, 216);
+}
+h3 {
+  font-family: 'Martel', serif;
+  font-size: 16px;
+}
