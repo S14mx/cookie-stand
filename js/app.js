@@ -222,7 +222,7 @@ function Store(name, min, max, avg) {
     let td;
     let tr = document.createElement('tr');
     tableData.appendChild(tr);
-    let blankCell = document.createElement('td');
+    let blankCell = document.createElement('th');
     blankCell.textContent = this.name;
     tr.appendChild(blankCell);
     for (let i = 0; i < this.soldEachHour.length; i++) {
