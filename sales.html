@@ -39,6 +39,28 @@
     </nav>
   </header>
   <main id="sales-data">
+    <div id="formContainer">
+      <form id="form">
+        <fieldset>
+          <legend>Add a store</legend>
+          <label>Store Name:
+            <input type="text" name="storeName" required>
+          </label>
+          <label>Minimum number of customers:
+            <input type="number" name="minCust" required>
+          </label>
+          <label>Maximum number of customers:
+            <input type="number" name="maxCust" required>
+          </label>
+          <label>Avarage cookies sold per customer:
+            <input type="number" name="avgPerCust" required>
+          </label>
+        </fieldset>
+        <div id="button">
+        <button type="submit">Submit</button>
+      </div>
+      </form>
+    </div>
     <h2> Sales Data </h2>
     <div id="storeProfiles">
     </div>

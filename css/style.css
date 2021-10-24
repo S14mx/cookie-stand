@@ -60,6 +60,7 @@ main {
 width:82vw;
 background-color:rgb(160, 104, 20, 0.7);
 margin: 0 auto;
+padding-bottom: 130px;
 }
 
 .about, .mission {
@@ -128,9 +129,6 @@ td, th {
   padding: 5px;
 }
 
-#sales-data {
-  height: 668px;
-}
 
 table {
   background-color: rgba(255, 235, 205, 0.801);
@@ -140,7 +138,7 @@ table {
 
 #sales-data h2 {
   text-align: center;
-  padding: 5rem;
+  padding: 3rem;
 }
 
 /* Footer */
@@ -204,4 +202,45 @@ h3 {
 
 th {
   font-weight: bold;
+}
+
+table {
+  padding-bottom: 80px;
+}
+
+/* Form */
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 400px;
+  
+}
+
+legend {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 40px;
+}
+
+label {
+  font-family: 'Martel', serif;
+  font-size: 18px;
+  padding: 5px 0px 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+input {
+  background-color:rgba(255, 228, 196, 0.897);
+  box-shadow: 2px 2px 4px 4px black;
+}
+
+#button {
+  text-align: center;
+  padding-top: 20px;
 }
