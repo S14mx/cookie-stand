@@ -2,9 +2,11 @@
   box-sizing: border-box;
 }
 
-/* font-family: 'IM Fell English SC', serif;
+/* font-family: 'Alice', serif;
+font-family: 'IM Fell English SC', serif;
 font-family: 'Martel', serif;
-font-family: 'Rampart One', cursive; */
+font-family: 'Rampart One', cursive;
+font-family: 'Zen Kurenaido', sans-serif;*/
 
 body {
   background-image: url("../images/Background.jpg");
@@ -127,6 +129,7 @@ p {
 td, th {
   border: 1px solid black;
   padding: 5px;
+  font-family: 'Zen Kurenaido', sans-serif;
 }
 
 
@@ -243,4 +246,9 @@ input {
 #button {
   text-align: center;
   padding-top: 20px;
+}
+
+button {
+  background-color: rgba(255, 228, 196, 0.897);
+  box-shadow: 2px 2px 4px 4px black;
 }
